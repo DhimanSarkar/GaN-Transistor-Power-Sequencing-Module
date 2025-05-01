@@ -1,0 +1,67 @@
+**$ENCRYPTED_LIB
+**$INTERFACE
+* TPS7A1633 Model
+*****************************************************************************
+* (C) Copyright 2011 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warrenties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose. The model is
+** provided solely on an "as is" basis. The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+** Released by: Analog eLab Design Center, Texas Instruments Inc.
+* Part: TPS7A1633
+* Date: 12/12/2011
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 16.0.0.p001
+* EVM Order Number: TPS7A1601EVM-046
+* EVM Users Guide: SLVU549 - DECEMBER 2011
+* Datasheet: SBVS171 - DECEMBER 2011
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+* source TPS7A1633
+*$
+.SUBCKT TPS7A1633 OUT FB_DNC PG GND EN DELAY IN PWPD
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc2be0e9466f6e2278
+0af4d16c5b14af0eaaa697fd41ba0e16a5e8f84780261c9ac0f55d83c0a526cda17808e172eca7fc4918a7349ce485632f55e2c682ba83d0046daad4c5b70cd4
+bb2f1374b6e03ea1bc6d16e8c840f49fa579e5d3351885ca9530a46d7db311cfb5705b32047909975eae5fe50c932aaa86aec7791eadbbd557e273469d091907
+ea15845bf786402abc6d16e8c840f49f5b31487805496d83b20367ef63adc0d11ab6a532eb82699e7ca4847231fe47543db41585b92a6137804d60bba00b6399
+6d5cb606756000706f0cc4f481357167dbebfedd4f98f3955263c4d99affe97d06fe69fee6821a08f45ccfb68609fec351c0ca19eeb786197105036966b00ffa
+108c7366d41083b80cf59c1e23728038a938ca7bfa9f7b939530a46d7db311cfb5705b32047909975eae5fe50c932aaa86aec7791eadbbd557e273469d091907
+261996056cb2831f1707ba5caad06abb59e16cfbfebc68aa9530a46d7db311cfb5705b32047909975eae5fe50c932aaa86aec7791eadbbd557e273469d091907
+907ca7a18737f728ea98157fa2e11f19f02fe900899ddadc6a25cd44fe68f031829756c26318e5b773b88e5729eca4ecbeafe6ee3e525af730c4e0d0e770e30c
+6d5ed68d8c4fffca5a8f7821a5d81d5b07fcf9c5303d66639530a46d7db311cfb5705b32047909975eae5fe50c932aaa86aec7791eadbbd557e273469d091907
+1afd144a25caea8ca24cfe9a0bda9ef607fcf9c5303d66639530a46d7db311cfb5705b32047909975eae5fe50c932aaa86aec7791eadbbd557e273469d091907
+08395c4fe45ec4ea9ffae7cb7d6cad4aafe11a5a986063fe9530a46d7db311cfb5705b32047909975eae5fe50c932aaa86aec7791eadbbd557e273469d091907
+167b06836e633f85ffd818fd968dbbfdd5e1302d6e71d4f2c0f55d83c0a526cda17808e172eca7fc4918a7349ce485632f55e2c682ba83d0046daad4c5b70cd4
+10c755df455ad7383eedb87dc71001d25b31487805496d83b20367ef63adc0d11ab6a532eb82699e7ca4847231fe47543db41585b92a6137804d60bba00b6399
+14ae11622e74ae29ce5ec34e6f8ad1ca644126c9831a96bdb20367ef63adc0d11ab6a532eb82699e7ca4847231fe47543db41585b92a6137804d60bba00b6399
+0560712283a229ff7eb00d8f880648e1152811568e9ddc2279c9cf7852f0cdef07fdf2f06185ea72b5362e65e81bab9ab5f1c17ee79563032be0e9466f6e2278
+31d26218f4feb4f1ce5ec34e6f8ad1caf399150fb30ad63ff6eb7c04d1e647fa6b2643d1cc501e1d943671cddb36f0bfcfd44de642057e5a789a6da40e0127e3
+2bcf8c0e340d3b4bce5ec34e6f8ad1cacef2f7fd91539e109c1f7b06a2d11490fa419aa7498c8f181ac1ca9372cb2a94e71f71e187584171d60a30c4131c113b
+87fb1b970590cba4ce5ec34e6f8ad1cac73a0ca7bd198f72ac6d8bf083b74f483116a7f626f3c2c6c024b045e1fc1e25f2ef7dcd80d914707e157bb0bb7b4af5
+59578a30c0074c7fe30fcbb1f696b320871cde820174593a705a3e1f52ff256f1d3bd908fc956511043e0586ff0971a60292f82e1fdd0111aeb0380c4f85245e
+d6b3be5845bfa952bdd34941190ef0e86a25cd44fe68f031829756c26318e5b773b88e5729eca4ecbeafe6ee3e525af7587f316c301d168768e5c5077aa8d611
+2823e3975544e9efce5ec34e6f8ad1ca644126c9831a96bdb20367ef63adc0d11ab6a532eb82699e7ca4847231fe47543db41585b92a6137804d60bba00b6399
+73711c3109d13bb2d435274dbf2fbe77aac934a3418f2ff4b971ec3d39140923a733f3131c1375e683a4c3757683b1b3cfd44de642057e5a789a6da40e0127e3
+0be1885ae4303619a43b04727a47f37e871cde820174593a705a3e1f52ff256f1d3bd908fc956511043e0586ff0971a60292f82e1fdd0111aeb0380c4f85245e
+317a7c757f7400142cf429320b2a70dc9530a46d7db311cfb5705b32047909975eae5fe50c932aaa86aec7791eadbbd5303e14a6087fdcf3f497297bf7cffee7
+77c3bede8944d77fef9b3a5e6ec1d87b1ac39239bf027bedcfd44de642057e5ae0836ec990da86fa95e5e44f57dded222bd4cabbf4defaa69669837b226d4944
+08a645e7acf561c3c4966fd5acc53944fb3b1a8334015d624bfb9e72873abdc74c3dd49c64b1e2ffc57c473d2f491cead125c75daa09052e8680c02fde7c313a
+$CDNENCFINISH
+.ENDS TPS7A1633
+
