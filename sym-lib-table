@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LT4256-1CS8")(type "KiCad")(uri "${KIPRJMOD}/lib/LT4256-1CS8/LT4256-1CS8.kicad_sym")(options "")(descr ""))
+  (lib (name "AONS66920")(type "KiCad")(uri "${KIPRJMOD}/lib/AONS66920/AONS66920.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS7A1650DGNR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS7A1650DGNR/TPS7A1650DGNR.kicad_sym")(options "")(descr ""))
+  (lib (name "LM2662MX_NOPB")(type "KiCad")(uri "${KIPRJMOD}/lib/LM2662MX_NOPB/LM2662MX_NOPB.kicad_sym")(options "")(descr ""))
+)
