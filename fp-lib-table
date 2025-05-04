@@ -4,4 +4,7 @@
   (lib (name "AONS66920")(type "KiCad")(uri "${KIPRJMOD}/lib/AONS66920")(options "")(descr ""))
   (lib (name "TPS7A1650DGNR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS7A1650DGNR")(options "")(descr ""))
   (lib (name "LM2662MX_NOPB")(type "KiCad")(uri "${KIPRJMOD}/lib/LM2662MX_NOPB")(options "")(descr ""))
+  (lib (name "FDN360P")(type "KiCad")(uri "${KIPRJMOD}/lib/FDN360P")(options "")(descr ""))
+  (lib (name "LM324DRG3")(type "KiCad")(uri "${KIPRJMOD}/lib/LM324DRG3")(options "")(descr ""))
+  (lib (name "BAT54S")(type "KiCad")(uri "${KIPRJMOD}/lib/BAT54S")(options "")(descr ""))
 )
