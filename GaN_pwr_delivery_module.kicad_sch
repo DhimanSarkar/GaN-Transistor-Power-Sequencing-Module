@@ -8538,8 +8538,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 99.06 67.8181 0)
+		(property "Value" "TestPoint"
+			(at 96.012 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
