@@ -7,4 +7,5 @@
   (lib (name "FDN360P")(type "KiCad")(uri "${KIPRJMOD}/lib/FDN360P/FDN360P.kicad_sym")(options "")(descr ""))
   (lib (name "LM324DRG3")(type "KiCad")(uri "${KIPRJMOD}/lib/LM324DRG3/LM324DRG3.kicad_sym")(options "")(descr ""))
   (lib (name "diode-nc_pin")(type "KiCad")(uri "${KIPRJMOD}/lib/BAT54S/diode-nc_pin.kicad_sym")(options "")(descr ""))
+  (lib (name "LDO40LPURY")(type "KiCad")(uri "${KIPRJMOD}/lib/LDO40LPURY/LDO40LPURY.kicad_sym")(options "")(descr ""))
 )

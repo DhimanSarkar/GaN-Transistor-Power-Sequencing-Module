@@ -7,4 +7,5 @@
   (lib (name "FDN360P")(type "KiCad")(uri "${KIPRJMOD}/lib/FDN360P")(options "")(descr ""))
   (lib (name "LM324DRG3")(type "KiCad")(uri "${KIPRJMOD}/lib/LM324DRG3")(options "")(descr ""))
   (lib (name "BAT54S")(type "KiCad")(uri "${KIPRJMOD}/lib/BAT54S")(options "")(descr ""))
+  (lib (name "LDO40LPURY")(type "KiCad")(uri "${KIPRJMOD}/lib/LDO40LPURY")(options "")(descr ""))
 )
