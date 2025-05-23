@@ -1810,7 +1810,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/7ede3e39-1325-4a82-b444-ac2ef8e75713")
+		(path "/dac924ae-d5a9-43b9-b922-7e8a22329b8a")
 		(sheetname "/")
 		(sheetfile "GaN_pwr_delivery_module.kicad_sch")
 		(attr smd)
