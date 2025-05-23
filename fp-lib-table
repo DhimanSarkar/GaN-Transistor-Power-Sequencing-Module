@@ -9,4 +9,5 @@
   (lib (name "BAT54S")(type "KiCad")(uri "${KIPRJMOD}/lib/BAT54S")(options "")(descr ""))
   (lib (name "LDO40LPURY")(type "KiCad")(uri "${KIPRJMOD}/lib/LDO40LPURY")(options "")(descr ""))
   (lib (name "UWT1V101MCL1GS")(type "KiCad")(uri "${KIPRJMOD}/lib/UWT1V101MCL1GS")(options "")(descr ""))
+  (lib (name "LM317D2T")(type "KiCad")(uri "${KIPRJMOD}/lib/LM317D2T")(options "")(descr ""))
 )
