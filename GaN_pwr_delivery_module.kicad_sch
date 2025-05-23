@@ -3779,6 +3779,12 @@
 		(uuid "0347f918-e499-4197-b60e-4b0cd9b44375")
 	)
 	(junction
+		(at -25.4 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c2d16c7-0ddb-47f0-8d19-4dfdfa5421df")
+	)
+	(junction
 		(at 80.01 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3807,6 +3813,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28230d21-7f8e-4383-a1bf-09c46dc15871")
+	)
+	(junction
+		(at -8.89 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a0e4480-db00-4f14-9ce6-4dfb1c118988")
 	)
 	(junction
 		(at -20.32 109.22)
@@ -3843,12 +3855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44e96c7b-5815-4f24-b4b1-65492a1f3bc2")
-	)
-	(junction
-		(at -25.4 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ce6c8b3-f09e-44be-a637-e508db8e20c2")
 	)
 	(junction
 		(at 58.42 38.1)
@@ -4606,7 +4612,7 @@
 	)
 	(wire
 		(pts
-			(xy -20.32 128.27) (xy -25.4 128.27)
+			(xy -20.32 130.81) (xy -25.4 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4896,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy -20.32 125.73) (xy -20.32 128.27)
+			(xy -20.32 128.27) (xy -20.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4936,7 +4942,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 128.27) (xy -27.94 120.65)
+			(xy -25.4 130.81) (xy -25.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5166,16 +5172,6 @@
 	)
 	(wire
 		(pts
-			(xy -25.4 118.11) (xy -25.4 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d4d6ec-4d44-4518-bd0a-5b7e7b50aa15")
-	)
-	(wire
-		(pts
 			(xy -66.04 109.22) (xy -58.42 109.22)
 		)
 		(stroke
@@ -5336,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy -27.94 120.65) (xy -31.75 120.65)
+			(xy -25.4 120.65) (xy -31.75 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5423,6 +5419,16 @@
 			(type default)
 		)
 		(uuid "af689d37-3bcf-42e8-a14c-ac44a08facb0")
+	)
+	(wire
+		(pts
+			(xy -8.89 109.22) (xy -5.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0036c5c-f4a3-4f67-9e2a-14ae4194eac1")
 	)
 	(wire
 		(pts
@@ -5676,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy -20.32 109.22) (xy -20.32 110.49)
+			(xy -20.32 109.22) (xy -20.32 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5983,16 +5989,6 @@
 			(type default)
 		)
 		(uuid "fcd2ab51-4c49-4e89-b5ff-a4b3f52ce126")
-	)
-	(wire
-		(pts
-			(xy -25.4 128.27) (xy -27.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1f146f-f56f-4eae-9f85-65e06753c9cf")
 	)
 	(wire
 		(pts
@@ -6730,10 +6726,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a90e0e5-33a1-4dd0-b6ef-4d4ee0abe0ca")
 		(property "Reference" "R33"
-			(at -27.94 124.4599 0)
+			(at -30.226 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6737,7 @@
 			)
 		)
 		(property "Value" "62k"
-			(at -27.94 126.9999 0)
+			(at -30.226 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7433,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT54SW")
-		(at -20.32 118.11 270)
+		(at -20.32 120.65 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7447,15 +7442,6 @@
 		(dnp no)
 		(uuid "2b070389-0669-4e76-9894-736230dcd6f3")
 		(property "Reference" "D34"
-			(at -16.51 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54SW"
 			(at -16.51 119.3799 90)
 			(effects
 				(font
@@ -7464,8 +7450,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "BAT54SW"
+			(at -16.51 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at -17.145 116.205 0)
+			(at -17.145 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-			(at -20.32 121.158 0)
+			(at -20.32 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7479,7 @@
 			)
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at -20.32 118.11 0)
+			(at -20.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,10 +12166,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff0db55e-905a-442b-80fd-86f5b68bf490")
 		(property "Reference" "RV32"
-			(at -29.21 132.0799 0)
+			(at -29.972 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12177,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at -29.21 134.6199 0)
+			(at -29.972 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
